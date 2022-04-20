@@ -1,5 +1,5 @@
-#Variável
-##"Um espaço na memória do computador, onde se pode guardar valores."
+# Variável
+## "Um espaço na memória do computador, onde se pode guardar valores."
 
 Existem 4 tipos:
 

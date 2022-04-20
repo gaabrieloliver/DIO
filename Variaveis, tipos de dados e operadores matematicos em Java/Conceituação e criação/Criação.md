@@ -1,4 +1,4 @@
-##Padrão de definição:
+## Padrão de definição:
 
 <?visibilidade?><?modificador?>tipo nome<?=valorInicial?>;
 
@@ -8,7 +8,7 @@ T: tipo de dado
 N: nome que é fornecido a variável
 VI: um valor inicial, caso se deseje
 
-##Convenções e regras:
+## Convenções e regras:
 
 - Não devem começar com números;
 - Embora permitido, "$" e "_" devem ser evitados;
@@ -18,7 +18,7 @@ VI: um valor inicial, caso se deseje
 	
 	abstract continue for new switch assert default ...
 
-##Exemplos:
+## Exemplos:
 - int i;
 - int I;
 - int 1a; (inválida)
@@ -31,7 +31,7 @@ VI: um valor inicial, caso se deseje
 - int asrn2$4678_md = 10;
 - int asrn2$46%78_md = 10; (inválida)
 
-##Boas práticas:
+## Boas práticas:
 - Sempre começar com letra miníscula;
 - Nomes expressivos;
 - Notação camelo;
@@ -50,4 +50,4 @@ Exemplos:
 - int i; 
 	(aqui pode ser usada no laço de 	repetição for, vai ser descartado no 	final do laço, então não tem 	problema ser apenas "i".)
 
-##Observação: É importante seguir boas práticas, pois o código é feito para outras pessoas, de fácil entendimento.
+## Observação: É importante seguir boas práticas, pois o código é feito para outras pessoas, de fácil entendimento.
